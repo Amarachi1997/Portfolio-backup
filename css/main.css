@@ -1,0 +1,406 @@
+@font-face{
+   font-family: myFirstFont;
+   src: url("../Roboto/Roboto-Medium.ttf")
+   }
+
+   @font-face{
+      font-family: mySecondFont;
+      src: url("../Montserrat/Montserrat-Regular.ttf")
+      }
+
+      @font-face{
+         font-family: myThirdFont;
+         src: url("../Montserrat/Montserrat-Light.ttf")
+         }
+   
+
+body{
+   padding:0;
+   margin:0;
+   background: #fff;
+   box-sizing: border-box;
+   font-family: myThirdFont;
+}
+
+p,i{
+   font-size: .88rem;
+}
+/*----navigation bar---*/
+.navbar{
+   background: #ddc9fdc5;
+   padding: 10px 90px;
+}
+
+a.nav-link
+   {
+   color:rgb(255, 15, 155) !important;
+   cursor: pointer;
+   font-weight: bold;
+   font-family: 'mySecondFont';
+}
+
+.nav-link:hover{
+   color: rgb(155, 17, 118);
+}
+.navbar-collapse{
+   justify-content: flex-end;
+}
+
+.navbar-dark .navbar-toggler{
+   border: 2px solid#fff !important;
+}
+
+/*--end of navigation bar--*/
+
+/*header section*/
+.header-play{
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   color:white;
+   font-size: 60px;
+   font-weight: bolder;
+   position: relative;
+   z-index: 2;
+}
+
+.header-text{
+   text-align: center;
+   color:rgb(255, 15, 155);
+   font-weight: bolder;
+   font-size: 3.5rem;
+   font-family: 'Sacramento', cursive;
+   z-index: 2 !important;
+   position: relative;
+}
+
+
+.first{
+   background-color: #ddc9fdc5;
+   height: 500px;
+   width:100%;
+   /* background-image:url("../image/background.jpg"); */
+   background-size:cover;
+   background-position: center;
+   padding: 90px 0;
+}
+
+
+.bottom-cloud-image{
+left: 200px;
+}
+
+.cloud-image{
+   right: 200px;
+}
+
+.bottom-cloud-image, .cloud-image{
+   height: 150px;
+   width: 150px;
+   position: absolute;
+}
+
+
+
+
+
+/*profile section*/
+#profile{
+   padding: 30px 40px;
+}
+
+.profile-header{
+   font-size:40px;
+   text-align: center;
+   font-weight: lighter;
+   color: #000; 
+   font-family: mySecondFont;
+   padding: 20px 0px;
+}
+
+.detail-header{
+   font-weight: bold;
+   font-size: 1rem;
+   font-family: mySecondFont;
+   padding: 30px 0px;
+}
+
+.name{
+   font-weight: bolder;
+   font-size: 1.5rem;
+
+}
+
+.detail-text{
+   color: #000;
+   font-weight: 2rems;
+}
+/*--profile image--*/
+.profile-image{
+   height: 200px;
+   width: 200px;
+   object-position: center;
+   object-fit: cover;
+}
+
+
+/*experiences section*/
+
+.experience-header{
+   font-size:40px;
+   text-align: center;
+   font-weight: lighter;
+   color: #000;
+   font-family: mySecondFont;
+}
+
+.experience-quote{
+   font-weight: lighter;
+   color: #000;
+   text-align: centre;
+}
+
+.top-experience{
+   padding: 30px;
+}
+
+
+/*Experiences section*/
+.asd{
+   text-align: center;
+   padding: 20px 0px 0px 0px;
+}
+
+.fgh{
+   display: block;
+   width: 250px;
+   padding: 0px 0px 20px 0px;
+}
+
+.btn-outline-secondary {
+   color: rgb(155, 17, 118) !important;
+   border-color: rgb(255, 15, 155) !important;
+}
+/*abilities section*/
+
+#abilities{
+   padding: 15px;
+}
+
+.ability-header{
+   font-size:40px;
+   font-family: mySecondFont;
+   text-align: center;
+   font-weight: lighter;
+   color: #000;
+}
+
+.ability-quote{
+   font-weight: lighter;
+   color: #000;
+   text-align: centre;
+}
+
+.ability-skill, .ability-languages, .ability-tools{
+   text-align: center;
+   font-weight: bold;
+   color: #000;
+   padding: 20px 0px;
+}
+
+.skill, .languages, .tools{
+   padding: 15px 0px;
+}
+
+.skill-mg{
+   height: 100px;
+   width: 100px;
+   padding: 10px;
+   cursor: pointer;
+
+}
+
+.skill-mg:hover{
+   transform: rotate(2deg);
+   filter: grayscale(100%);
+}
+
+.lines{
+   line-height: 38px;
+}
+
+.alert-info {
+   color: #600c4e;
+   background-color: #e3f2fd;
+   border-color: #e3f2fd;
+}
+
+/*--project section--*/
+.project-header{
+   font-size:40px;
+   text-align: center;
+   font-weight: lighter;
+   color: #000;
+   padding: 20px 0px;
+   font-family: mySecondFont;
+}
+
+#projects{
+   padding: 30px 0px !important;
+   margin: 20px 0px;
+}
+
+.project-image{
+   border: 1px solid rgba(255, 107, 193, 0.541);
+   border-radius: 50% ;
+   object-fit: contain;
+   margin: 5px ;
+   height: 150px;
+   width: 150px;
+}
+
+.card-img, .card-img-top {
+   border-top-left-radius: calc(.50rem - 1px) !important;
+   border-top-right-radius: calc(.50rem - 1px);
+}
+
+.card .mb-3{
+   border-radius: 10px !important;
+}
+
+#linkchange{
+   background-color: #f01a90 !important;
+   color: #fff;
+}
+
+#projects .githubBtn{
+   background-color: rgb(255, 15, 155);
+   color: #fff;
+   margin: 20px auto;
+   width: 300px;
+}
+
+/*contact section*/
+
+#contact{
+   background-image: linear-gradient(#fff8fa, #f6fbff);
+   padding: 20px 10px;
+
+}
+.contact-header{
+   font-size:40px;
+   text-align: center;
+   font-weight: lighter;
+   color: #000;
+   font-family: mySecondFont;
+}
+
+.contact-quote{
+   font-weight: lighter;
+   color: #000;
+   text-align: centre;
+}
+
+.contact-icon{
+   color: rgb(255, 15, 155);
+   font-size: 2rem;
+   padding: 20px;
+}
+
+.icon-container{
+   padding: 30px;
+   text-align: center;
+}
+
+.fa-map-marker-alt{
+   color: rgb(255, 15, 155);
+}
+
+.typed-cursor{
+   opacity: 1;
+   -webkit-animation: blink 0.7s infinite;
+   -moz-animation: blink 0.7s infinite;
+   animation: blink 0.7s infinite;
+}
+@keyframes blink{
+   0% { opacity:1; }
+   50% { opacity:0; }
+   100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+   0% { opacity:1; }
+   50% { opacity:0; }
+   100% { opacity:1; }
+}
+@-moz-keyframes blink{
+   0% { opacity:1; }
+   50% { opacity:0; }
+   100% { opacity:1; }
+}
+.myspan{
+   font-size: 25px;
+   font-weight: bold;
+   color: white;
+   text-transform: none;
+   text-decoration-style: none;
+   font-family: mySecondFont, "sans";
+}
+@media screen and (max-width:600px){
+ p{
+    margin-bottom: 10px!important;
+ }
+ .pad{
+   padding-top: 40px;
+}
+
+.project-image{
+   height: 90px;
+   width: 90px;
+   margin: 2px ;
+}
+
+body{
+   margin: 0px;
+}
+
+.bottom-cloud-image{
+   bottom: 200px;
+   left: 100px;
+   }
+   
+   .cloud-image{
+      right: 20px;
+      top: -10px;
+   }
+   
+   .bottom-cloud-image, .cloud-image{
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      opacity: .7;
+   }
+ }
+
+
+ /**blog**/
+ #maindiary{
+    margin: 40px 0px !important;
+ }
+
+ .blog-head{
+    font-weight: bolder;
+    color: rgb(255, 15, 155);
+    margin: 20px 0px;
+ }
+
+ .blog-head-text{
+    font-weight: bold;
+ }
+
+ .date{
+    font-size: .7rem;
+ }
+
+ .blog-image{
+    object-fit: cover;
+ }
+ 
